@@ -1,5 +1,4 @@
-# google-cloud-terraform
-Terraform scripts for Google Cloud
+# Deploy a Google Cloud VM in a single region with Terraform
 
 create-vm.tf --> create a Ubuntu VM using Terraform
 
