@@ -5,6 +5,11 @@ variable "gcp_auth_file" {
   description = "GCP authentication file"
 }
 
+variable "app_project" {
+  type = string
+  description = "GCP project name"
+}
+
 variable "app_name" {
   type = string
   description = "Application name"
@@ -19,4 +24,3 @@ variable "app_environment" {
   type = string
   description = "Application environment"
 }
-
