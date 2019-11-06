@@ -21,7 +21,8 @@ resource "google_compute_instance" "vm_instance_1" {
   metadata_startup_script = "sudo apt-get update; sudo apt-get install -yq build-essential apache2"
 
   network_interface {
-    network       = "${var.app_name}-vpc"
+    network       = google_compute_network.vpc.name
+    subnetwork    = google_compute_subnetwork.public_subnet_1.name
     access_config { }
   }
 } 
