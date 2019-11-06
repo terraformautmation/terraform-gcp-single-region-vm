@@ -1,4 +1,4 @@
-# Deploy a Google Cloud VM in a single region with Terraform
+# Deploy a Google Cloud VM with Apache in a single region with Terraform
 
 network-firewall.tf --> Configure basic firewall for the network
 
