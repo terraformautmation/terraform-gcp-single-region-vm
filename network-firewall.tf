@@ -1,4 +1,4 @@
-# Basic Network Firewall Rules | network-security.tf  
+# Basic Network Firewall Rules | network-firewall.tf  
 
 # Allow http
 resource "google_compute_firewall" "allow-http" {
