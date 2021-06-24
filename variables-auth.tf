@@ -1,26 +1,25 @@
 # Google Cloud connection & authentication and Application configuration | variables-auth.tf
-
 variable "gcp_auth_file" {
-  type = string
+  type        = string
   description = "GCP authentication file"
 }
 
 variable "app_project" {
-  type = string
+  type        = string
   description = "GCP project name"
 }
 
 variable "app_name" {
-  type = string
+  type        = string
   description = "Application name"
 }
 
 variable "app_domain" {
-  type = string
+  type        = string
   description = "Application domain"
 }
 
 variable "app_environment" {
-  type = string
+  type        = string
   description = "Application environment"
 }
