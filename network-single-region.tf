@@ -115,3 +115,10 @@ module "nat-gateway2" {
   # The region to create the nat gateway instance in.
   region = ""
 }
+
+module "nat-gateway3" {
+  source  = "GoogleCloudPlatform/nat-gateway/google"
+  version = "1.2.3"
+  # The region to create the nat gateway instance in.
+  region = ""
+}
